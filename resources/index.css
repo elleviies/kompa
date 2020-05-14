@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 145, 0);
+}
+
+nav {
+    padding-top: 50px;
+    padding-bottom: 160px;
+    font-size: 50px;
+}
+
+main {
+    font-size: 16px;
+}
+
+p {
+    color: rgb(129, 255, 2);
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+footer {
+    text-align: center;
+
+}
+
+button {
+    height: 90px;
+    width: 90px;
+    margin-bottom: 30px;
+
+}
+
+.edasitagasi {
+    color:rgb(201, 201, 28);
+
+
+}
+
+video {
+    width: 360px;
+    height: auto;
+}
+
+
+.video-rida-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+}
+
+.video-rida-2 {  
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.video-rida-3 {  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+   
+
+}
+
+
+#back {
+   float: left;
+   margin-left: 20px;
+}
+
+#back:hover {
+    font-size: 0;
+}
+
+#back:hover:after {
+    content: attr(data-hover);
+    font-size: 50px;
+    color: crimson;
+    
+}
+
+#next {
+    float: right;
+    margin-left: 20px;
+
+}
+
+#next:hover {
+    color: crimson;
+}
